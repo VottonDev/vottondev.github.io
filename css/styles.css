@@ -1,0 +1,52 @@
+body {
+    background-color: #000;
+    font-family: monospace;
+    color: #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+.anime-left,
+.anime-right {
+    position: fixed;
+    max-width: 250px;
+    width: 45%;
+    bottom: 0;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.anime-left {
+    left: 0;
+}
+
+.anime-right {
+    right: 0;
+}
+
+#video {
+    width: 70%;
+}
+
+@media (min-width: 1000px) {
+
+    .anime-left,
+    .anime-right {
+        opacity: 0.75;
+    }
+}
