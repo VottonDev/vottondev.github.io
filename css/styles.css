@@ -4,6 +4,12 @@ body {
     color: #ccc;
     max-width: 500px;
     margin: 0 auto;
+    margin-top: 50px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ccc;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 a,
