@@ -1,59 +1,123 @@
+* {
+    cursor: url(../img/cur119.cur), auto !important;
+}
+
 body {
-    background-color: #000;
+    background-image: url('../img/purplenoise.gif');
+    color: white;
     font-family: monospace;
-    color: #ccc;
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: #ccc;
-    border-radius: 10px;
-    padding: 10px;
+    text-align: center;
+    text-shadow: 0 0 5px violet;
 }
 
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #fff;
-    text-decoration: none;
+.header {
+    width: 750px;
+    background-color: black;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
 }
 
-a:hover {
-    color: #aaa;
+.box {
+    width: 750px;
+    background-color: black;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: black 0 0 15px;
+    margin-top: 40px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 20px;
 }
 
-.anime-left,
-.anime-right {
-    position: fixed;
-    max-width: 250px;
-    width: 45%;
-    bottom: 0;
-    opacity: 0.25;
-    z-index: -1;
+.box p {
+    margin: 20px;
+    font-size: 13px;
 }
 
-.anime-left {
-    left: 0;
-}
-
-.anime-right {
-    right: 0;
-}
-
-#video {
-    width: 70%;
-}
-
-@media (min-width: 1000px) {
-
-    .anime-left,
-    .anime-right {
-        opacity: 0.75;
+@media only screen and (max-width: 800px) {
+    .box {
+        width: 290px;
+        background-color: black;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: black 0 0 15px;
+        margin-top: 40px;
+        text-align: center;
+        padding: 20px;
     }
 
+    .lain {
+        height: 100px;
+    }
+}
+
+#scanlines {
+    background-image: url("../img/scanlines.png");
+    background-repeat: repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    animation: scan 0.7s infinite;
+    animation-timing-function: linear;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+@keyframes scan {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: 0px -5px;
+    }
+}
+
+::selection {
+    background-color: violet;
+    color: purple;
+}
+
+a {
+    color: violet;
+}
+
+pre {
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 800px) {
+    .box {
+        width: 290px;
+        background-color: black;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: black 0 0 15px;
+        margin-top: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .lain {
+        height: 250px;
+    }
 }
