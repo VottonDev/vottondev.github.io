@@ -115,16 +115,7 @@ export default function Home() {
             class="lain"
           />
         </div>
-        <iframe
-          width="0"
-          height="0"
-          src="https:/ /
-          www.youtube.com / embed / WJjjtajclpY
-      ? rel = 0 &autoplay = 1 "
-          frameborder="0"
-          allow="autoplay; encrypted-media"
-          allowfullscreen
-        ></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/WJjjtajclpY?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </main>
     </div>
   );
