@@ -85,10 +85,10 @@ export default function Home() {
               <a href="https://twitter.com/Votton">Votton</a>
             </li>
             <li>
-              telegram & mdash;
+              telegram &mdash;
               <a href="https://telegram.me/@Votton">@Votton</a>
             </li>
-            <li>discord & mdash; Votton #3331 </li>
+            <li>discord &mdash; Votton #3331 </li>
             <li>
               ppg &mdash;{" "}
               <a
