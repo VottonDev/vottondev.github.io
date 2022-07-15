@@ -93,8 +93,7 @@ export default function Home() {
               ppg &mdash;{" "}
               <a
                 href="https:/ /
-              votton.pw /
-              pgp.txt "
+              votton.pw / pgp.txt "
               >
                 E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6{" "}
               </a>
