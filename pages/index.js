@@ -14,13 +14,13 @@ export default function Home() {
           rel="apple-touch-icon"
           sizes="180x180"
           href="apple-touch-icon.png"
-        />
+        />{" "}
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
           href="favicon-32x32.png"
-        />
+        />{" "}
         <link
           rel="icon"
           type="image/png"
@@ -48,14 +48,14 @@ export default function Home() {
       <main>
         <div id="scanlines"></div>
         <div class="box">
-          <h1>Votton's Personal Website</h1>
+          <h1>Votton's Personal Website</h1>{" "}
         </div>
         <div class="box">
           <h2>Projects:</h2>
           <ul>
             <li>
               <a href="https://kyouko.se">
-                Kyouko.se / Kyot.me &mdash; Private file hosting
+                Kyouko.se / Kyot.me & mdash; Private file hosting
               </a>
             </li>
             <li>
@@ -68,40 +68,48 @@ export default function Home() {
             </li>
             <li>
               <a href="https://top.gg/user/3553584536979439616">
-                Two Discord bots (12K+ servers)
+                Two Discord bots( 12K + servers)
               </a>
             </li>
           </ul>
           <h2>Contact details:</h2>
           <ul>
             <li>
-              e-mail &mdash;{" "}
+              e - mail & mdash;{" "}
               <a href="mailto:votton@artificialtrading.io">
-                votton@artificialtrading.io
+                votton @artificialtrading.io
               </a>
             </li>
             <li>
-              twitter &mdash; <a href="https://twitter.com/Votton">Votton</a>
+              twitter & mdash;
+              <a href="https://twitter.com/Votton">Votton</a>
             </li>
             <li>
-              telegram &mdash; <a href="https://telegram.me/@Votton">@Votton</a>
+              telegram & mdash;
+              <a href="https://telegram.me/@Votton">@Votton</a>
             </li>
-            <li>discord &mdash; Votton#3331</li>
+            <li>discord & mdash; Votton #3331 </li>
             <li>
               ppg &mdash;{" "}
-              <a href="https://votton.pw/pgp.txt">
-                E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6
+              <a
+                href="https:/ /
+              votton.pw /
+              pgp.txt "
+              >
+                E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6{" "}
               </a>
+            </li>{" "}
+            <li>
+              keybase & mdash;
+              <a href="https://keybase.io/Votton">Votton</a>
             </li>
             <li>
-              keybase &mdash; <a href="https://keybase.io/Votton">Votton</a>
-            </li>
-            <li>
-              patreon &mdash; <a href="https://patreon.com/Votton">Votton</a>
+              patreon & mdash;
+              <a href="https://patreon.com/Votton">Votton</a>
             </li>
           </ul>
           <img
-            src="img/lain.gif"
+            src="img/lain.gif "
             alt="lain"
             height="420"
             draggable="false"
@@ -111,7 +119,9 @@ export default function Home() {
         <iframe
           width="0"
           height="0"
-          src="https://www.youtube.com/embed/WJjjtajclpY?rel=0&autoplay=1"
+          src="https:/ /
+          www.youtube.com / embed / WJjjtajclpY
+      ? rel = 0 &autoplay = 1 "
           frameborder="0"
           allow="autoplay; encrypted-media"
           allowfullscreen
