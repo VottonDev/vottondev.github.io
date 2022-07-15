@@ -77,15 +77,15 @@ export default function Home() {
             <li>
               email &mdash;{" "}
               <a href="mailto:votton@artificialtrading.io">
-                votton @artificialtrading.io
+                votton@artificialtrading.io
               </a>
             </li>
             <li>
-              twitter &mdash; 
+              twitter &mdash;{" "}
               <a href="https://twitter.com/Votton">Votton</a>
             </li>
             <li>
-              telegram &mdash; 
+              telegram &mdash;{" "}
               <a href="https://telegram.me/@Votton">@Votton</a>
             </li>
             <li>discord &mdash; Votton #3331 </li>
@@ -97,11 +97,11 @@ export default function Home() {
               </a>
             </li>{" "}
             <li>
-              keybase &mdash; 
+              keybase &mdash;{" "}
               <a href="https://keybase.io/Votton">Votton</a>
             </li>
             <li>
-              patreon &mdash; 
+              patreon &mdash;{" "}
               <a href="https://patreon.com/Votton">Votton</a>
             </li>
           </ul>
