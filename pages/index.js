@@ -60,7 +60,7 @@ export default function Home() {
             </li>
             <li>
               <a href="https://onepluscommunityserver.com">
-                OnePlus Archive + OnePlusBot
+                OnePlus Archive
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ export default function Home() {
             </li>
             <li>
               <a href="https://top.gg/user/3553584536979439616">
-                Two Discord bots( 12K + servers)
+                Two Discord bots( 13K + servers)
               </a>
             </li>
           </ul>
