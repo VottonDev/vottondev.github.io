@@ -81,29 +81,27 @@ export default function Home() {
               </a>
             </li>
             <li>
-              twitter &mdash;
+              twitter &mdash; 
               <a href="https://twitter.com/Votton">Votton</a>
             </li>
             <li>
-              telegram &mdash;
+              telegram &mdash; 
               <a href="https://telegram.me/@Votton">@Votton</a>
             </li>
             <li>discord &mdash; Votton #3331 </li>
             <li>
               ppg &mdash;{" "}
               <a
-                href="https:/ /
-              votton.pw / pgp.txt "
-              >
+                href="pgp.txt">
                 E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6{" "}
               </a>
             </li>{" "}
             <li>
-              keybase &mdash;
+              keybase &mdash; 
               <a href="https://keybase.io/Votton">Votton</a>
             </li>
             <li>
-              patreon &mdash;
+              patreon &mdash; 
               <a href="https://patreon.com/Votton">Votton</a>
             </li>
           </ul>
