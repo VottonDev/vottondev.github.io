@@ -76,8 +76,8 @@ export default function Home() {
           <ul>
             <li>
               email &mdash;{" "}
-              <a href="mailto:votton@artificialtrading.io">
-                votton@artificialtrading.io
+              <a href="mailto:me@votton.pw">
+                me@votton.pw
               </a>
             </li>
             <li>
