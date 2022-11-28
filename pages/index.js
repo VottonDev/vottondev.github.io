@@ -150,6 +150,9 @@ export default function Home() {
           keybase &mdash; <a href="https://keybase.io/Votton">Votton</a>
         </li>
         <li>
+          github &mdash; <a href="https://github.com/VottonDev>">VottonDev</a>
+        </li>
+        <li>
           patreon &mdash; <a href="https://patreon.com/Votton">Votton</a>
         </li>
       </ul>
