@@ -118,7 +118,7 @@ export default function Home() {
           </a>
         </li>
         <li>
-          <a href="https://willard.network">Willard Network</a>
+          <a href="https://willard.network">Willard Networks</a>
         </li>
         <li>
           <a href="https://top.gg/user/3553584536979439616">
