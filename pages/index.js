@@ -121,6 +121,9 @@ export default function Home() {
           <a href="https://willard.network">Willard Networks</a>
         </li>
         <li>
+          <a href="https://koalabot.uk">KoalaBot</a>
+        </li>
+        <li>
           <a href="https://top.gg/user/3553584536979439616">
             Two Discord bots (12K+ servers)
           </a>
