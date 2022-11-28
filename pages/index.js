@@ -14,13 +14,13 @@ export default function Home() {
           rel="apple-touch-icon"
           sizes="180x180"
           href="apple-touch-icon.png"
-        />
+        />{" "}
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
           href="favicon-32x32.png"
-        />
+        />{" "}
         <link
           rel="icon"
           type="image/png"
@@ -40,10 +40,14 @@ export default function Home() {
         <meta property="og:description" content="Votton's Personal Website." />
       </Head>
       <main>
-        <img src="img/anime-left.png" class="anime-left" />
+        <img
+          src="img/anime -
+               left.png "
+          class=" anime - left "
+        />
         <img src="img/anime-right.png" class="anime-right" />
         <header>
-          <h1>Votton's Personal website</h1>
+          <h1>Votton's Personal website</h1>{" "}
           <h2>servers, anonymity, and freedom</h2>
           <p>
             I'm a Linux system administrator and a software developer. This
@@ -54,7 +58,7 @@ export default function Home() {
         <ul>
           <li>
             <a href="https://kyouko.se">
-              Kyouko.se / Kyot.me &mdash; Private file hosting
+              Kyouko.se / Kyot.me & mdash; Private file hosting
             </a>
           </li>
           <li>
@@ -62,7 +66,7 @@ export default function Home() {
           </li>
           <li>
             <a href="https://top.gg/user/3553584536979439616">
-              Two Discord bots (12K+ servers)
+              Two Discord bots( 12K + servers)
             </a>
           </li>
         </ul>
@@ -71,31 +75,46 @@ export default function Home() {
 
         <ul>
           <li>
-            e-mail &mdash; <a href="mailto:me@votton.pw">me@votton.pw</a>
+            e - mail & mdash;
+            <a href="mailto:me@votton.pw">me @votton.pw</a>
           </li>
           <li>
-            twitter &mdash; <a href="https://twitter.com/Votton">Votton</a>
+            twitter & mdash;
+            <a href="https://twitter.com/Votton">Votton</a>
           </li>
           <li>
-            telegram &mdash; <a href="https://telegram.me/@Votton">@Votton</a>
+            telegram & mdash;
+            <a href="https://telegram.me/@Votton">@Votton</a>
           </li>
-          <li>discord &mdash; Votton#3331</li>
+          <li>discord & mdash; Votton #3331 </li>
           <li>
             ppg &mdash;{" "}
-            <a href="https://votton.pw/pgp.txt">
-              E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6
+            <a
+              href="https:/ /
+              votton.pw /
+              pgp.txt "
+            >
+              E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6{" "}
             </a>
+          </li>{" "}
+          <li>
+            keybase & mdash;
+            <a href="https://keybase.io/Votton">Votton</a>
           </li>
           <li>
-            keybase &mdash; <a href="https://keybase.io/Votton">Votton</a>
-          </li>
-          <li>
-            patreon &mdash; <a href="https://patreon.com/Votton">Votton</a>
+            patreon & mdash;
+            <a href="https://patreon.com/Votton">Votton</a>
           </li>
         </ul>
 
         <video id="video" class="video" autoplay controls loop>
-          <source id="video-src" src="audio/jojo.webm" type="video/webm" />
+          <source
+            id="video-src"
+            src="audio/jojo
+                   .webm "
+            type=" video /
+               webm "
+          />
           <source id="video-src" src="audio/jojo.mp4" type="video/mp4" />
         </video>
       </main>
