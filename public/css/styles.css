@@ -1,93 +1,59 @@
-* {
-    cursor: url(../img/cur119.cur), auto !important;
-}
-
 body {
-    background-image: url('../img/purplenoise.gif');
-    color: white;
+    background-color: #000;
     font-family: monospace;
-    text-align: center;
-    text-shadow: 0 0 5px violet;
+    color: #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ccc;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.box {
-    width: 750px;
-    background-color: black;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: black 0 0 15px;
-    margin-top: 40px;
-    text-align: center;
-    overflow-wrap: break-word;
-    padding: 20px;
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    text-decoration: none;
 }
 
-.box p {
-    margin: 20px;
-    font-size: 13px;
+a:hover {
+    color: #aaa;
 }
 
-#scanlines {
-    background-image: url("../img/scanlines.png");
-    background-repeat: repeat;
+.anime-left,
+.anime-right {
     position: fixed;
-    top: 0px;
-    left: 0px;
-    width: auto;
-    height: auto;
-    z-index: 9999999;
-    animation: scan 0.7s infinite;
-    animation-timing-function: linear;
-    pointer-events: none;
-    opacity: 0.4;
+    max-width: 250px;
+    width: 45%;
+    bottom: 0;
+    opacity: 0.25;
+    z-index: -1;
 }
 
-@keyframes scan {
-    0% {
-        background-position: 0px 0px;
+.anime-left {
+    left: 0;
+}
+
+.anime-right {
+    right: 0;
+}
+
+#video {
+    width: 70%;
+}
+
+@media (min-width: 1000px) {
+
+    .anime-left,
+    .anime-right {
+        opacity: 0.75;
     }
 
-    100% {
-        background-position: 0px -5px;
-    }
-}
-
-::selection {
-    background-color: violet;
-    color: purple;
-}
-
-a {
-    color: violet;
-}
-
-pre {
-    text-align: left;
-    white-space: pre-wrap;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    font-size: 1.2em;
-}
-
-@media only screen and (max-width: 800px) {
-    .box {
-        width: auto;
-        background-color: black;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: black 0 0 15px;
-        margin-top: 40px;
-        text-align: center;
-        padding: 20px;
-    }
-    .lain {
-        height: auto;
-    }
 }
