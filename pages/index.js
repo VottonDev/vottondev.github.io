@@ -29,18 +29,18 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="Votton's Personal Website." />
         <meta
-          name="keywords"
-          content="votton, programming, software development, system administration"
-        />
-        <meta name="author" content="Votton" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://votton.pw/" />
-        <meta property="og:title" content="Votton's Personal Website " />
-        <meta property="og:description" content="Votton's Personal Website." />
-        <link
-          href="css/styles.css"
-          rel="stylesheet"
-          type="text/css"
+  name = "keywords"
+  content =
+      "votton, programming, software development, system administration" / >
+      <meta name = "author" content = "Votton" />
+      <meta property = "og:type" content = "website" />
+      <meta property = "og:url" content = "https://votton.pw/" />
+      <meta property = "og:title" content = "Votton's Personal Website " />
+      <meta property = "og:description" content =
+           "Votton's Personal Website." />< link
+  href = "css/styles.css"
+  rel = "stylesheet"
+  type = "text/css"
           media="all"
         />
       </Head>
