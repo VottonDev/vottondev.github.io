@@ -92,7 +92,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://votton.pw/" />
         <meta property="og:title" content="Votton's Personal Website " />
-        <meta property="og:description" content="Votton's Personal Website." />
+        <meta property="og:description" content="Contact details and other relevant information found here." />
         <link
           href="css/styles.css"
           rel="stylesheet"
