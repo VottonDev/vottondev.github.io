@@ -40,11 +40,7 @@ export default function Home() {
         <meta property="og:description" content="Votton's Personal Website." />
       </Head>
       <main>
-        <img
-          src="img/anime -
-               left.png "
-          class=" anime - left "
-        />
+        <img src="img/anime - left.png " class=" anime - left " />
         <img src="img/anime-right.png" class="anime-right" />
         <header>
           <h1>Votton's Personal website</h1>{" "}
@@ -91,8 +87,7 @@ export default function Home() {
             ppg &mdash;{" "}
             <a
               href="https:/ /
-              votton.pw /
-              pgp.txt "
+              votton.pw / pgp.txt "
             >
               E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6{" "}
             </a>
@@ -111,9 +106,9 @@ export default function Home() {
           <source
             id="video-src"
             src="audio/jojo
-                   .webm "
+           .webm "
             type=" video /
-               webm "
+              webm "
           />
           <source id="video-src" src="audio/jojo.mp4" type="video/mp4" />
         </video>
