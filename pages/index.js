@@ -1,115 +1,66 @@
+import React from "react";
 import Head from "next/head";
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Votton's Personal Website</title>
-        <meta name="title" content="Votton's Personal Website" />
-        <meta charset="utf8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/styles.css" />
+const icons = [
+  { sizes: "57x57", href: "/apple-icon-57x57.png" },
+  { sizes: "60x60", href: "/apple-icon-60x60.png" },
+];
+
+const videoUrl = "https://www.youtube.com/embed/JZjpkJ_A3Jo?autoplay=1";
+
+const Home = () => (
+  <div>
+    <Head>
+      <title>Votton's Personal Website</title>
+      <meta name="title" content="Votton's Personal Website" />
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="/css/styles.css" />
+      {icons.map((icon, index) => (
         <link
           rel="apple-touch-icon"
-          sizes="57x57"
-          href="/apple-icon-57x57.png"
+          sizes={icon.sizes}
+          href={icon.href}
+          key={index}
         />
-        <link
-          rel="apple-touch-icon"
-          sizes="60x60"
-          href="/apple-icon-60x60.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="72x72"
-          href="/apple-icon-72x72.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="76x76"
-          href="/apple-icon-76x76.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="114x114"
-          href="/apple-icon-114x114.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="120x120"
-          href="/apple-icon-120x120.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="144x144"
-          href="/apple-icon-144x144.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="152x152"
-          href="/apple-icon-152x152.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="192x192"
-          href="/android-icon-192x192.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="96x96"
-          href="/favicon-96x96.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Votton's Personal Website." />
-        <meta
-          name="keywords"
-          content="votton, programming, software development, system administration"
-        />
-        <meta name="author" content="Votton" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://votton.pw/" />
-        <meta property="og:title" content="Votton's Personal Website " />
-        <meta property="og:description" content="Contact details and other relevant information found here." />
-        <link
-          href="css/styles.css"
-          rel="stylesheet"
-          type="text/css"
-          media="all"
-        />
-      </Head>
-      <img src="img/chainsaw.png" class="anime-left" />
-      <img src="img/chainsaw.png" class="anime-right" />
-      <header>
-        <h1>Votton's Personal website</h1>
-        <h2>servers, anonymity, and freedom</h2>
-        <p>
-          I'm a Linux system administrator and a software developer. This
-          website is for my contact details and the personal websites I host.
-        </p>
-      </header>
+      ))}
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="/android-icon-192x192.png"
+      />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#ffffff" />
+      <meta name="description" content="Votton's Personal Website." />
+      <meta
+        name="keywords"
+        content="votton, programming, software development, system administration"
+      />
+      <meta name="author" content="Votton" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://votton.pw/" />
+      <meta property="og:title" content="Votton's Personal Website" />
+      <meta
+        property="og:description"
+        content="Contact details and other relevant information found here."
+      />
+    </Head>
+    <header>
+      <h1>Votton's Personal website</h1>
+      <h2>servers, anonymity, and freedom</h2>
+      <p>
+        I'm a Linux system administrator and a software developer. This website
+        is for my contact details and the personal websites I host.
+      </p>
+    </header>
+    <main>
       <h3>sites</h3>
       <ul>
         <li>
@@ -159,15 +110,19 @@ export default function Home() {
           patreon &mdash; <a href="https://patreon.com/Votton">Votton</a>
         </li>
       </ul>
-      <div class="video-container">
+    </main>
+    <footer>
+      <div className="video-container">
         <iframe
-          src="https://www.youtube.com/embed/JZjpkJ_A3Jo?autoplay=1"
+          src={videoUrl}
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
-    </div>
-  );
-}
+    </footer>
+  </div>
+);
+
+export default Home;

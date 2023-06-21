@@ -5,72 +5,66 @@ body {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: #ccc;
+    border: 5px groove #ccc;
     border-radius: 10px;
     padding: 10px;
-}
-
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+  }
+  
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #fff;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #aaa;
-}
-
-.anime-left,
-.anime-right {
+  }
+  
+  .anime {
     position: fixed;
     max-width: 250px;
     width: 45%;
     bottom: 0;
     opacity: 0.25;
     z-index: -1;
-}
-
-.anime-left {
+  }
+  
+  .anime-left {
     left: 0;
-}
-
-.anime-right {
+  }
+  
+  .anime-right {
     right: 0;
     transform: scaleX(-1);
-}
-
-@media (min-width: 1000px) {
-
-    .anime-left,
-    .anime-right {
-        opacity: 0.75;
+  }
+  
+  @media (min-width: 1000px) {
+    .anime {
+      opacity: 0.75;
     }
-
-}
-
-* {
-    cursor: url(../img/cur119.cur), auto !important;
-}
-
-.video-container {
+  }
+  
+  * {
+    cursor: url(../img/cur119.cur), auto;
+  }
+  
+  .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
-}
-
-.video-container iframe {
+  }
+  
+  .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+  }  
