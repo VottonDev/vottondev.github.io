@@ -64,11 +64,6 @@ const Home = () => (
       <h3>sites</h3>
       <ul>
         <li>
-          <a href="https://kyouko.se">
-            Kyouko.se / Kyot.me &mdash; Private file hosting
-          </a>
-        </li>
-        <li>
           <a href="https://willard.network">Willard Networks</a>
         </li>
         <li>
