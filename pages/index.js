@@ -98,9 +98,6 @@ const Home = () => (
         <li>
           github &mdash; <a href="https://github.com/VottonDev">VottonDev</a>
         </li>
-        <li>
-          patreon &mdash; <a href="https://patreon.com/Votton">Votton</a>
-        </li>
       </ul>
     </main>
     <footer>
