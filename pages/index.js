@@ -66,11 +66,6 @@ const Home = () => (
         <li>
           <a href="https://willard.network">Willard Networks</a>
         </li>
-        <li>
-          <a href="https://top.gg/user/3553584536979439616">
-            Two Discord bots (12K+ servers)
-          </a>
-        </li>
       </ul>
 
       <h3>contact information</h3>
@@ -86,15 +81,6 @@ const Home = () => (
           telegram &mdash; <a href="https://telegram.me/@Votton">@Votton</a>
         </li>
         <li>discord &mdash; Votton#3331</li>
-        <li>
-          ppg &mdash;{" "}
-          <a href="https://votton.pw/pgp.txt">
-            E498 4B0F AF77 E368 E372 AE3E C0A7 4994 265D 16D6
-          </a>
-        </li>
-        <li>
-          keybase &mdash; <a href="https://keybase.io/Votton">Votton</a>
-        </li>
         <li>
           github &mdash; <a href="https://github.com/VottonDev">VottonDev</a>
         </li>
