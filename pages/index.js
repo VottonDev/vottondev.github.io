@@ -54,25 +54,31 @@ const Home = () => (
       <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap" rel="stylesheet" />
     </Head>
     <header>
+      <div className="machine-code">SYSTEM://root/home/votton</div>
       <h1>VOTTON INTERFACE v1.0</h1>
+      <div className="loading-bar"></div>
       <h2>SYSTEM STATUS: ONLINE</h2>
       <p>
-        [PROFILE DATA] Linux system administrator and software developer. 
-        Primary function: Contact interface and personal network hub.
+        [INITIALIZING PROFILE DATA...]<br/>
+        > Linux system administrator and software developer<br/>
+        > Primary function: Contact interface and personal network hub<br/>
+        > Status: Operational
       </p>
     </header>
     <main>
       <h3>NETWORK NODES</h3>
+      <div className="loading-bar"></div>
       <ul>
         <li>
-          <a href="https://willard.network">WILLARD NETWORKS</a>
+          <a href="https://willard.network"> WILLARD_NETWORKS</a>
         </li>
       </ul>
 
       <h3>COMMUNICATION CHANNELS</h3>
+      <div className="loading-bar"></div>
       <ul>
         <li>
-          E-MAIL_PROTOCOL :: <a href="mailto:me@votton.pw">me@votton.pw</a>
+          <a href="mailto:me@votton.pw"> E-MAIL_PROTOCOL :: me@votton.pw</a>
         </li>
         <li>
           TWITTER_LINK :: <a href="https://twitter.com/Votton">Votton</a>
