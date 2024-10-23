@@ -60,9 +60,9 @@ const Home = () => (
       <h2>SYSTEM STATUS: ONLINE</h2>
       <p>
         [INITIALIZING PROFILE DATA...]<br/>
-        > Linux system administrator and software developer<br/>
-        > Primary function: Contact interface and personal network hub<br/>
-        > Status: Operational
+        {'>'} Linux system administrator and software developer<br/>
+        {'>'} Primary function: Contact interface and personal network hub<br/>
+        {'>'} Status: Operational
       </p>
     </header>
     <main>

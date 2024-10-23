@@ -214,6 +214,13 @@ h1:hover, h2:hover, h3:hover {
   pointer-events: none;
 }
 
+/* Hide machine code on mobile */
+@media (max-width: 600px) {
+  .machine-code {
+    display: none;
+  }
+}
+
 /* Loading bar animation */
 @keyframes loading {
   from { width: 0; }
