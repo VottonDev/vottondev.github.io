@@ -6,7 +6,7 @@ const icons = [
   { sizes: "60x60", href: "/apple-icon-60x60.png" },
 ];
 
-const videoUrl = "https://www.youtube.com/embed/MPeCei_qfnQ?autoplay=1";
+const videoUrl = "https://www.youtube.com/embed/8jpJM6nc6fE?autoplay=1";
 
 const Home = () => (
   <div className="nier-container">
@@ -103,6 +103,12 @@ const Home = () => (
         ></iframe>
       </div>
     </footer>
+    <div className="geometric-pattern"></div>
+    <div className="noise"></div>
+    <div className="corner corner-tl"></div>
+    <div className="corner corner-tr"></div>
+    <div className="corner corner-bl"></div>
+    <div className="corner corner-br"></div>
   </div>
 );
 
