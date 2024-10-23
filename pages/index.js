@@ -6,10 +6,10 @@ const icons = [
   { sizes: "60x60", href: "/apple-icon-60x60.png" },
 ];
 
-const videoUrl = "https://www.youtube.com/embed/JZjpkJ_A3Jo?autoplay=1";
+const videoUrl = "https://www.youtube.com/embed/8jpJM6nc6fE?autoplay=1";
 
 const Home = () => (
-  <div>
+  <div className="nier-container">
     <Head>
       <title>Votton's Personal Website</title>
       <meta name="title" content="Votton's Personal Website" />
@@ -51,38 +51,44 @@ const Home = () => (
         property="og:description"
         content="Contact details and other relevant information found here."
       />
+      <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap" rel="stylesheet" />
     </Head>
     <header>
-      <h1>Votton's Personal website</h1>
-      <h2>servers, anonymity, and freedom</h2>
+      <div className="machine-code">SYSTEM://root/home/votton</div>
+      <h1>VOTTON INTERFACE v1.0</h1>
+      <div className="loading-bar"></div>
+      <h2>SYSTEM STATUS: ONLINE</h2>
       <p>
-        I'm a Linux system administrator and a software developer. This website
-        is for my contact details and the personal websites I host.
+        [INITIALIZING PROFILE DATA...]<br/>
+        > Linux system administrator and software developer<br/>
+        > Primary function: Contact interface and personal network hub<br/>
+        > Status: Operational
       </p>
     </header>
     <main>
-      <h3>sites</h3>
+      <h3>NETWORK NODES</h3>
+      <div className="loading-bar"></div>
       <ul>
         <li>
-          <a href="https://willard.network">Willard Networks</a>
+          <a href="https://willard.network"> WILLARD_NETWORKS</a>
         </li>
       </ul>
 
-      <h3>contact information</h3>
-
+      <h3>COMMUNICATION CHANNELS</h3>
+      <div className="loading-bar"></div>
       <ul>
         <li>
-          e-mail &mdash; <a href="mailto:me@votton.pw">me@votton.pw</a>
+          <a href="mailto:me@votton.pw"> E-MAIL_PROTOCOL :: me@votton.pw</a>
         </li>
         <li>
-          twitter &mdash; <a href="https://twitter.com/Votton">Votton</a>
+          TWITTER_LINK :: <a href="https://twitter.com/Votton">Votton</a>
         </li>
         <li>
-          telegram &mdash; <a href="https://telegram.me/@Votton">@Votton</a>
+          TELEGRAM_ID :: <a href="https://telegram.me/@Votton">@Votton</a>
         </li>
-        <li>discord &mdash; Votton#3331</li>
+        <li>DISCORD_TAG :: Votton#3331</li>
         <li>
-          github &mdash; <a href="https://github.com/VottonDev">VottonDev</a>
+          GITHUB_REPO :: <a href="https://github.com/VottonDev">VottonDev</a>
         </li>
       </ul>
     </main>
@@ -97,6 +103,12 @@ const Home = () => (
         ></iframe>
       </div>
     </footer>
+    <div className="geometric-pattern"></div>
+    <div className="noise"></div>
+    <div className="corner corner-tl"></div>
+    <div className="corner corner-tr"></div>
+    <div className="corner corner-bl"></div>
+    <div className="corner corner-br"></div>
   </div>
 );
 
