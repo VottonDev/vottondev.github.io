@@ -81,9 +81,6 @@ const Home = () => (
           <a href="mailto:me@votton.pw"> E-MAIL_PROTOCOL :: me@votton.pw</a>
         </li>
         <li>
-          TWITTER_LINK :: <a href="https://twitter.com/Votton">Votton</a>
-        </li>
-        <li>
           TELEGRAM_ID :: <a href="https://telegram.me/@Votton">@Votton</a>
         </li>
         <li>DISCORD_TAG :: Votton#3331</li>
